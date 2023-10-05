@@ -59,7 +59,75 @@ Inserte dos números<br>
 *** Ejecución Finalizada. ***
 </code>
 
-#### Condicionales o bifurcaciones
+### Operadores
+
+A la hora de resolver problemas y realizar nuestros __algoritmos__ muchas veces no sólo con leer datos (__input__) y escribir datos (__output__). También es necesario realizar operaciones con ellos. A continuación detallamos algunos de los operadores que nos son necearios
+
+#### Operadores aritméticos
+
+Con los números, puedes usar los operadores aritméticos para realizar operaciones matemáticas. Los más comunes son:
+
+- suma (+)
+- resta (-)
+- multiplicación (*)
+- división (/)
+- módulo (resto de la división)
+- exponente
+
+Con las cadenas de texto:
+
+- Concatenación (+)
+
+#### Operadores de comparación
+
+En las __estructura de control__ condicinal que utilizaremos más adelante son necesarios los llamados __operadores de comparación__: >, <, >=, <=, ==, !=
+
+Ejemplos:
+
+```js
+// Podemos comparar si un número es mayor que otro con el operador >, o si un número es menor que otro con el operador <.
+5 > 3 // true
+5 < 3 // false
+
+// También tenemos los operadores >= y <= que nos permiten comparar si un número es mayor o igual que otro, o si un número es menor o igual que otro.
+5 >= 3 // true
+5 >= 5 // true
+5 <= 3 // false
+5 <= 5 // true
+
+// Para saber si dos valores son iguales podemos usar el operador == o, para saber si son diferentes, el operador !=.
+
+5 == 5 // true
+5 != 5 // false
+```
+
+#### Operadores lógicos
+
+- El operador lógico __Y__ (AND) devolverá __verdadero__ (true) cuando ambos valores que conecta son true.
+
+```js
+// En JavaScript el operador lógico AND se escribe como &&
+true && true // → true
+true && false // → false
+false && false // → false
+```
+- El operador lógico __O__ (OR) devolverá __verdadero__ (true) cuando cualquiera de los valores que conecta son true.
+
+```js
+// En JavaScript el operador lógico OR se escribe como ||
+true || true // → true
+true || false // → true
+false || false // → false
+```
+
+- El operador lógico NO (NOT) invierte el valor de un valor booleano. Se pone delante del valor que queremos invertir. 
+
+```js
+// En JavaScript el operador lógico NOT se escribe como !
+!true // → false
+!false // → true
+```
+### Condicionales o bifurcaciones
 
 En la __programación estructurada__ el código es lineal, esto es, instrucción a instrucción. Pero eso no quita que a veces haya que tomar decisiones.
 
@@ -94,27 +162,6 @@ Usted es mayor de edad (50)<br>
 
 Como observamos en una __bifurcación__ más conocido como __condicional__ esperamos una decisión, esto es, se evalúa una __expresión a verdadero o falso__. Las condicionales también se denominan estructuras de control
 
-En una __estructura de control__ condicinal utilizaremos los llamados __operadores de comparación__: >, <, >=, <=, ==, !=
-
-Ejemplos:
-
-```js
-// Podemos comparar si un número es mayor que otro con el operador >, o si un número es menor que otro con el operador <.
-5 > 3 // true
-5 < 3 // false
-
-// También tenemos los operadores >= y <= que nos permiten comparar si un número es mayor o igual que otro, o si un número es menor o igual que otro.
-5 >= 3 // true
-5 >= 5 // true
-5 <= 3 // false
-5 <= 5 // true
-
-// Para saber si dos valores son iguales podemos usar el operador == o, para saber si son diferentes, el operador !=.
-
-5 == 5 // true
-5 != 5 // false
-```
-
 ## Recursos y enlaces
 
 - [PSInt](https://pseint.sourceforge.net/)
@@ -125,3 +172,9 @@ Ejemplos:
 1.  Diagrama de flujo que a partir de tres notas de evaluación dadas de un determiando alumno en la asignatura de "Programación" se obtenga la media aritmética de estas
 2. Diagrama de flujo introducido el precio de un producto se le aplique descuento del quince por ciento obteniendo el desglose del descuento y el precio final
 3. Diagrama de flujo en el que determinemos dado un número si este es positivo o negativo
+4. Leer un número y determinar si este es par o impar
+5. Leer un número y determinar si es divisible por 3
+6. Leer un número y calcular su cuadrado
+7. Leer un número y determinar si es par
+8. Leer 3 números y calcular el promedio
+9. Leer dos números y determinar si el primero es mayor que el segundo
