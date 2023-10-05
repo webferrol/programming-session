@@ -59,11 +59,69 @@ Inserte dos números<br>
 *** Ejecución Finalizada. ***
 </code>
 
-## Recursos
+#### Condicionales o bifurcaciones
+
+En la __programación estructurada__ el código es lineal, esto es, instrucción a instrucción. Pero eso no quita que a veces haya que tomar decisiones.
+
+Obsérvese el siguiente diagrama:
+
+![Mayor de edad](./diagramas-flujo/mayor-edad.jpg)
+
+El pseudocódigo del mismos sería:
+
+```psint
+Algoritmo mayor_edad
+	Definir edad como Entero
+	Escribir 'Introduzca su edad'
+	Leer edad
+	Si edad > 17 Entonces
+		Escribir 'Usted es mayor de edad (', edad,')'
+	SiNo
+		Escribir 'Usted es menor de edad (', edad,')'
+	FinSi
+FinAlgoritmo
+```
+
+Y un ejemplo de ejecución del programa:
+
+<code>
+*** Ejecución Iniciada. ***<br>
+Introduzca su edad<br>
+> 50<br>
+Usted es mayor de edad (50)<br>
+*** Ejecución Finalizada. ***
+</code>
+
+Como observamos en una __bifurcación__ más conocido como __condicional__ esperamos una decisión, esto es, se evalúa una __expresión a verdadero o falso__. Las condicionales también se denominan estructuras de control
+
+En una __estructura de control__ condicinal utilizaremos los llamados __operadores de comparación__: >, <, >=, <=, ==, !=
+
+Ejemplos:
+
+```js
+// Podemos comparar si un número es mayor que otro con el operador >, o si un número es menor que otro con el operador <.
+5 > 3 // true
+5 < 3 // false
+
+// También tenemos los operadores >= y <= que nos permiten comparar si un número es mayor o igual que otro, o si un número es menor o igual que otro.
+5 >= 3 // true
+5 >= 5 // true
+5 <= 3 // false
+5 <= 5 // true
+
+// Para saber si dos valores son iguales podemos usar el operador == o, para saber si son diferentes, el operador !=.
+
+5 == 5 // true
+5 != 5 // false
+```
+
+## Recursos y enlaces
 
 - [PSInt](https://pseint.sourceforge.net/)
+- [Estructuras de control](https://www.aprendejavascript.dev/clase/estructuras-de-control/expresiones-y-declaraciones)
 
 ## Ejercicios básicos
 
 1.  Diagrama de flujo que a partir de tres notas de evaluación dadas de un determiando alumno en la asignatura de "Programación" se obtenga la media aritmética de estas
 2. Diagrama de flujo introducido el precio de un producto se le aplique descuento del quince por ciento obteniendo el desglose del descuento y el precio final
+3. Diagrama de flujo en el que determinemos dado un número si este es positivo o negativo
