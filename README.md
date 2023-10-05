@@ -1,5 +1,7 @@
 # Programación
 
+![Tira cómica](./programming.jpg)
+
 ## Definición
 
 __Proceso__ de escribir o crear un conjunto de __instrucciones__ que le dicen a una computadora cómo __realizar una tarea__. 
