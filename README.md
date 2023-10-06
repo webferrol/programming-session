@@ -177,8 +177,5 @@ Como observamos en una __bifurcación__ más conocido como __condicional__ esper
 2. Diagrama de flujo introducido el precio de un producto se le aplique descuento del quince por ciento obteniendo el desglose del descuento y el precio final
 3. Diagrama de flujo en el que determinemos dado un número si este es positivo o negativo
 4. Leer un número y determinar si este es par o impar
-5. Leer un número y determinar si es divisible por 3
-6. Leer un número y calcular su cuadrado
-7. Leer un número y determinar si es par
-8. Leer 3 números y calcular el promedio
-9. Leer dos números y determinar si el primero es mayor que el segundo
+5. Leer dos números y determinar si el primero es mayor que el segundo
+6. Alterar el ejercicio anterior. Leer dos números y después ‼‼‼ hacer que el primer número leído sea siempre el mayor de los dos.
