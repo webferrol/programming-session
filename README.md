@@ -169,7 +169,7 @@ Como observamos en una __bifurcación__ más conocido como __condicional__ esper
 ## Recursos y enlaces
 
 - [PSInt](https://pseint.sourceforge.net/)
-- [Estructuras de control](https://www.aprendejavascript.dev/clase/estructuras-de-control/expresiones-y-declaraciones)
+- [Curso básico de JavaScript](https://www.aprendejavascript.dev)
 
 ## Ejercicios básicos
 
@@ -179,12 +179,13 @@ Como observamos en una __bifurcación__ más conocido como __condicional__ esper
 4. Leer un número y determinar si este es par o impar
 5. Leer dos números y determinar si el primero es mayor que el segundo. En caso de que no sea así intercambiar los valores con una variable auxiliar
 
-## Soluciones
-
-[Ejercicios básicos](./soluciones.md)
 
 # Ejercicios aplicando el paradigma de la programación estructurada
 
 1. Una tienda ha ofrecido una promoción en la compra de jeans. Si el cliente compra más de dos pantalones, recibirá un descuento del 30% sobre el precio de venta que es de 85€. Elabore un programa que calcule el valor a pagar por un cliente, ingresando el número de jeans que compre.
 2. Dados dos números reales, __a__ y __b__, y el símbolo, __S__ (carácter), de un operador
 aritmético (+, -, *, /), imprimir el resultado de la operación __a__ __S__ __b__
+
+## Soluciones
+
+- [Ejercicios básicos](./soluciones.md)
