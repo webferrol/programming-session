@@ -4,6 +4,17 @@
 
 ![Tira cómica](./programming.jpg)
 
+## Tabla de contenidos
+
+- [Definicion de programación](#definición)
+- [Coneptos básicos](#conceptos-básicos)
+- [Pseudocódigo y diagramas de flujo](#pseudocódigo-y-diagramas-de-flujo)
+- [Operadores](#operadores)
+- [Escructura condicional](#condicionales-o-bifurcaciones)
+- [Bucle while](#bucles-con-while)
+- [Ejercicios básicos](#ejercicios-básicos)
+
+
 ## Definición
 
 __Proceso__ de escribir o crear un conjunto de __instrucciones__ que le dicen a una computadora cómo __realizar una tarea__. 
@@ -27,6 +38,8 @@ true // (boolean o lógico)
 6. __Contante__ Espacio de memoria reservada para almacenar und dato. La diferencia fundamental con respecto a las variables es que una vez que reciben la asignación de un valor no se pueden volver a modificar
 7. __Declaración__ Momento en el que reservamos espacio de memoria (creamos) una variable o constante
 8. __Sentencia__ Instrucción dada a una computadora
+
+[Inicio](#tabla-de-contenidos)
 
 ## Pseudocódigo y diagramas de flujo
 
@@ -63,11 +76,13 @@ Inserte dos números<br>
 *** Ejecución Finalizada. ***
 </code>
 
-### Operadores
+[Inicio](#tabla-de-contenidos)
+
+## Operadores
 
 A la hora de resolver problemas y realizar nuestros __algoritmos__ muchas veces no sólo con leer datos (__input__) y escribir datos (__output__). También es necesario realizar operaciones con ellos. A continuación detallamos algunos de los operadores que nos son necearios
 
-#### Operadores aritméticos
+### Operadores aritméticos
 
 Con los números, puedes usar los operadores aritméticos para realizar operaciones matemáticas. Los más comunes son:
 
@@ -82,7 +97,7 @@ Con las cadenas de texto:
 
 - Concatenación (+)
 
-#### Operadores de comparación
+### Operadores de comparación
 
 En las __estructura de control__ condicinal que utilizaremos más adelante son necesarios los llamados __operadores de comparación__: >, <, >=, <=, ==, !=
 
@@ -105,7 +120,7 @@ Ejemplos:
 5 != 5 // false
 ```
 
-#### Operadores lógicos
+### Operadores lógicos
 
 - El operador lógico __Y__ (AND) devolverá __verdadero__ (true) cuando ambos valores que conecta son true.
 
@@ -131,6 +146,8 @@ false || false // → false
 !true // → false
 !false // → true
 ```
+[Inicio](#tabla-de-contenidos)
+
 ### Condicionales o bifurcaciones
 
 En la __programación estructurada__ el código es lineal, esto es, instrucción a instrucción. Pero eso no quita que a veces haya que tomar decisiones.
@@ -166,10 +183,19 @@ Usted es mayor de edad (50)<br>
 
 Como observamos en una __bifurcación__ más conocido como __condicional__ esperamos una decisión, esto es, se evalúa una __expresión a verdadero o falso__. Las condicionales también se denominan estructuras de control
 
-## Recursos y enlaces
+[Inicio](#tabla-de-contenidos)
 
-- [PSInt](https://pseint.sourceforge.net/)
-- [Curso básico de JavaScript](https://www.aprendejavascript.dev)
+### Bucles con while
+
+	Un bucle es una estructura de control que permite repetir un bloque de instrucciones. Vamos, repetir una tarea tantas veces como queramos.
+
+Por ejemplo, repitamos la tarea de mostrar en orden los primeros 10 números naturales:
+
+![Primeros 10 números](./diagramas-flujo/primeros_10.jpg)
+
+El __bucle while__ es una __estructura de control__ de flujo que ejecuta una sección de código __mientras se cumple una determinada condición__, esto es simpre y cuando la estructura de control sea __true__.
+
+[Inicio](#tabla-de-contenidos)
 
 ## Ejercicios básicos
 
@@ -179,13 +205,22 @@ Como observamos en una __bifurcación__ más conocido como __condicional__ esper
 4. Leer un número y determinar si este es par o impar
 5. Leer dos números y determinar si el primero es mayor que el segundo. En caso de que no sea así intercambiar los valores con una variable auxiliar
 
+- [Soluciones](./ejercicios-basicos.md)
 
-# Ejercicios aplicando el paradigma de la programación estructurada
+## [Prueba de conocimientos](./prueba-conocimientos.md)
 
-1. Una tienda ha ofrecido una promoción en la compra de jeans. Si el cliente compra más de dos pantalones, recibirá un descuento del 30% sobre el precio de venta que es de 85€. Elabore un programa que calcule el valor a pagar por un cliente, ingresando el número de jeans que compre.
-2. Dados dos números reales, __a__ y __b__, y el símbolo, __S__ (carácter), de un operador
+## Ejercicios de refuerzo
+
+1. Dados dos números reales, __a__ y __b__, y el símbolo, __S__ (carácter), de un operador
 aritmético (+, -, *, /), imprimir el resultado de la operación __a__ __S__ __b__
+2. Mostrar los primeros 10 números naturales impares
+3. Sumar los números del 1 al 10
+4. Imprimir la tabla de multiplicar de 1 al 10
 
-## Soluciones
+## Recursos y enlaces
 
-- [Ejercicios básicos](./soluciones.md)
+- [PSInt](https://pseint.sourceforge.net/)
+- [Curso básico de JavaScript](https://www.aprendejavascript.dev)
+
+[Inicio](#tabla-de-contenidos)
+
