@@ -213,13 +213,17 @@ El __bucle while__ es una __estructura de control__ de flujo que ejecuta una sec
 
 1. Dados dos números reales, __a__ y __b__, y el símbolo, __S__ (carácter), de un operador
 aritmético (+, -, *, /), imprimir el resultado de la operación __a__ __S__ __b__
-2. Mostrar los primeros 10 números naturales impares
-3. Sumar los números del 1 al 10
-4. Imprimir la tabla de multiplicar de 1 al 10
+2. Comprobar si un año es bisiesto. Los años divisibles por 4 son bisiestos, pero cada 400 años se deben eliminar 3 bisiestos. Para ello, no son bisiestos los que se dividen por 100, menos los que se dividen por 400, que sí son bisitestos.
+Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo los que sean divisibles por 100, pero no los que sean divisibles por 400.
+
+## Bucles
+1. Mostrar los primeros 10 números naturales impares
+2. Sumar los números del 1 al 10
+3. Imprimir la tabla de multiplicar de 1 al 10
 
 ## Recursos y enlaces
 
-- [PSInt](https://pseint.sourceforge.net/)
+- [PSeInt](https://pseint.sourceforge.net/)
 - [Curso básico de JavaScript](https://www.aprendejavascript.dev)
 
 [Inicio](#tabla-de-contenidos)
