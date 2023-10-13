@@ -148,7 +148,31 @@ false || false // → false
 ```
 [Inicio](#tabla-de-contenidos)
 
-### Condicionales o bifurcaciones
+### Prioridad de operadores
+
+![Prioridad de operadores](./images/prioridad-operadores.png)
+
+- 13 - 4 · (5 - 2) + 3 · (2 + 8)
+- 16 + 3 · (6 - 4) - 3 · 5 
+- 23 - 8 + 6 · 2 - 3 · 4
+- 6 · (7 · 5 - 4 · 6) + 81 : 9 - 6
+- 23 - 5 · (6 - 2) + 9
+- 4 · 3 + 7 - 2 · 4 + 3 · (9 - 5)
+- 6 · 4 + 3 AND -1
+- 3 · (5 + 4) - 6 + 3 · (8 - 4)
+- 8 · (3 + 6) - 7 · (2 + 3)
+- 6 + 3 · 5 - 4 · (7 - 2)
+- 4 · (7 + 2) - 3 · 9
+- 5 · 6 : 2 - (12 - 3) · 2
+- 3 · 9 + 7 + 6 - 5 · 3
+- 5 · (2 + 6) + 7 - 4 · 3
+- 6 · 7 - 4 · 6 + 8 - 3
+- 23 - 5 · (6 - 2) + 9
+- 4 · 3 + 7 - 2 · 4 + 3 · (9 - 5)
+- 40 - (15 - 6 - 8) - 10
+- 5 · 7 + 5 · 2 - 5 · 4 + 5 · 10 - 5 · 3 + 5 · 12 OR false
+
+## Condicionales o bifurcaciones
 
 En la __programación estructurada__ el código es lineal, esto es, instrucción a instrucción. Pero eso no quita que a veces haya que tomar decisiones.
 
@@ -185,7 +209,7 @@ Como observamos en una __bifurcación__ más conocido como __condicional__ esper
 
 [Inicio](#tabla-de-contenidos)
 
-### Bucles con while
+## Bucles con while
 
 	Un bucle es una estructura de control que permite repetir un bloque de instrucciones. Vamos, repetir una tarea tantas veces como queramos.
 
