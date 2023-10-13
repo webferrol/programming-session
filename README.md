@@ -211,7 +211,7 @@ Como observamos en una __bifurcación__ más conocido como __condicional__ esper
 
 ## Bucles con while
 
-	Un bucle es una estructura de control que permite repetir un bloque de instrucciones. Vamos, repetir una tarea tantas veces como queramos.
+Un __bucle__ es una _estructura de control_ que permite _repetir un bloque_ de instrucciones. Vamos, repetir una tarea tantas veces como queramos.
 
 Por ejemplo, repitamos la tarea de mostrar en orden los primeros 10 números naturales:
 
