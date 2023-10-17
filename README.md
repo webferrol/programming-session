@@ -244,6 +244,8 @@ Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo l
 1. Mostrar los primeros 10 números naturales impares
 2. Sumar los números del 1 al 10
 3. Imprimir la tabla de multiplicar de 1 al 10
+4. Algoritmo en el que un usuario introduzca 50 números y al final se muestre cuántos son números positivos, cuántos negativos y cuántos cero
+5. En __PseInt__ con esta instrucción <code> n = azar(10) + 1</code> obtenemos un número aleatorio entre 1 y 10. Realizar un algoritmo donde un usuario tenga 10 intentos para adivinar un número aleatorio entre 1 y 100. Por cada intento se le dará la pista si el número propuesto es mayor o menor que el número aleatorio generado.
 
 ## Recursos y enlaces
 
