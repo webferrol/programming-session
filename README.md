@@ -2,7 +2,7 @@
 
 [Classroom](https://classroom.google.com/c/NTg1NzY1NzA3NjIw?cjc=mnyl26c)
 
-![Tira cómica](./programming.jpg)
+<img width="300" src="./programming.jpg" alt="32 Core CPU, 32 GB of RAM, WOW ... and all to print 'Hello World'">
 
 ## Tabla de contenidos
 
