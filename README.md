@@ -252,7 +252,7 @@ Para ver la soluciones cambia a la [rama __solutions__](https://github.com/webfe
 ## Recursos y enlaces
 
 - [PSeInt](https://pseint.sourceforge.net/)
-- [Curso básico de JavaScript](https://www.aprendejavascript.dev)
+- [Curso básico de JavaScript](https://github.com/webferrol/programming-session/tree/solutions/soluciones)
 
 [Inicio](#tabla-de-contenidos)
 
