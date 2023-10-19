@@ -247,7 +247,7 @@ Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo l
 4. Algoritmo en el que un usuario introduzca 50 números y al final se muestre cuántos son números positivos, cuántos negativos y cuántos cero
 5. En __PseInt__ con esta instrucción <code> n = azar(10) + 1</code> obtenemos un número aleatorio entre 1 y 10. Realizar un algoritmo donde un usuario tenga 10 intentos para adivinar un número aleatorio entre 1 y 100. Por cada intento se le dará la pista si el número propuesto es mayor o menor que el número aleatorio generado.
 
-Para ver la soluciones cambia a la rama __solutions__
+Para ver la soluciones cambia a la [rama __solutions__](https://github.com/webferrol/programming-session/tree/solutions)
 
 ## Recursos y enlaces
 
