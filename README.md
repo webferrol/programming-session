@@ -246,7 +246,7 @@ Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo l
 3. Imprimir la tabla de multiplicar de 1 al 10
 4. Algoritmo en el que un usuario introduzca 50 números y al final se muestre cuántos son números positivos, cuántos negativos y cuántos cero
 5. En __PseInt__ con esta instrucción <code> n = azar(10) + 1</code> obtenemos un número aleatorio entre 1 y 10. Realizar un algoritmo donde un usuario tenga 10 intentos para adivinar un número aleatorio entre 1 y 100. Por cada intento se le dará la pista si el número propuesto es mayor o menor que el número aleatorio generado.
-6. Tenemos la pantalla del móvil bloqueada. Partiendo de un PIN_SECRETO, intentaremos desbloquear la pantalla. Tenemos hasta 3 intentos. Simula el proceso con Python. En caso de acceder, lanza al usuario 'login correcto'. Sino, 'llamando al policía'.
+6. Tenemos la pantalla del móvil bloqueada. Partiendo de un PIN_SECRETO, intentaremos desbloquear la pantalla. Tenemos hasta 3 intentos. Simula el proceso. En caso de acceder, lanza al usuario 'login correcto'. Sino, 'llamando al policía'.
 7. Calcular el factorial de un número. Por ejemplo:
 
 	```
