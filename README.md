@@ -246,8 +246,29 @@ Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo l
 3. Imprimir la tabla de multiplicar de 1 al 10
 4. Algoritmo en el que un usuario introduzca 50 números y al final se muestre cuántos son números positivos, cuántos negativos y cuántos cero
 5. En __PseInt__ con esta instrucción <code> n = azar(10) + 1</code> obtenemos un número aleatorio entre 1 y 10. Realizar un algoritmo donde un usuario tenga 10 intentos para adivinar un número aleatorio entre 1 y 100. Por cada intento se le dará la pista si el número propuesto es mayor o menor que el número aleatorio generado.
+6. Tenemos la pantalla del móvil bloqueada. Partiendo de un PIN_SECRETO, intentaremos desbloquear la pantalla. Tenemos hasta 3 intentos. Simula el proceso con Python. En caso de acceder, lanza al usuario 'login correcto'. Sino, 'llamando al policía'.
+7. Calcular el factorial de un número. Por ejemplo:
 
-Para ver la soluciones cambia a la [rama __solutions__](https://github.com/webferrol/programming-session/tree/solutions)
+	```
+	3! o factorial de 3
+	3 * 2 * 1 = 6
+	```
+
+8. Crea un algoritmo que dibuje un árbol dado un número, asumiendo que n >1. Para n = 3:
+
+	```
+	*
+	**
+	***
+	```
+
+9.  Vamos a diseñar una calculadora que se enciende y hasta que no tecleamos 'SAL' no se apaga. Esta calculadora funciona de la siguiente manera:
+	- Recogemos los datos A y B
+  - Si operación es 1 calcula A / B. Vigilamos que B no sea 0...
+  - Si la operación es 2 calculamos la siguiente fórmula: ( A * B ) / 2.5
+
+
+Para ver la soluciones cambia al <mark>branch</mark> __solutions__.
 
 ## Recursos y enlaces
 
