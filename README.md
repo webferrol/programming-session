@@ -13,6 +13,7 @@
 - [Escructura condicional](#condicionales-o-bifurcaciones)
 - [Bucle while](#bucles-con-while)
 - [Ejercicios básicos](#ejercicios-básicos)
+- [Pruebas de conocimiento](#pruebas-de-conocimiento)
 
 
 ## Definición
@@ -277,8 +278,6 @@ El diagrama sería el siguiente:
 
 - [Soluciones](./ejercicios-basicos.md)
 
-## [Prueba de conocimientos](./prueba-conocimientos.md)
-
 ## Ejercicios de refuerzo
 
 1. Dados dos números reales, __a__ y __b__, y el símbolo, __S__ (carácter), de un operador
@@ -322,4 +321,9 @@ Para ver la soluciones cambia al <mark>branch</mark> __solutions__.
 - [Curso básico de JavaScript](https://github.com/webferrol/programming-session/tree/solutions/soluciones)
 
 [Inicio](#tabla-de-contenidos)
+
+## Pruebas de conocimiento:
+
+- [Prueba 1](./pruebas-conocimiento/prueba-conocimientos.md)
+- [Prueba 2](./pruebas-conocimiento/prueba-conocimientos-ii.md)
 
