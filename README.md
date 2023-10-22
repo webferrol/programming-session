@@ -209,15 +209,61 @@ Como observamos en una __bifurcación__ más conocido como __condicional__ esper
 
 [Inicio](#tabla-de-contenidos)
 
-## Bucles con while
+## Bucles
 
 Un __bucle__ es una _estructura de control_ que permite _repetir un bloque_ de instrucciones. Vamos, repetir una tarea tantas veces como queramos.
 
-Por ejemplo, repitamos la tarea de mostrar en orden los primeros 10 números naturales:
-
 ![Primeros 10 números](./diagramas-flujo/primeros_10.jpg)
 
+### while
+
 El __bucle while__ es una __estructura de control__ de flujo que ejecuta una sección de código __mientras se cumple una determinada condición__, esto es simpre y cuando la estructura de control sea __true__.
+
+La naturaleza de un bucle __while__ provoca que éste quizás _nunca se ejecute_.
+
+En el siguiente ejemplo qué ocurría si el usuario introduce un cero como número:
+
+<img alt ="Cuenta atrás" src="./diagramas-flujo/cuenta_atras.jpg" >
+
+### do...while
+
+Muy parecido al bucle __while__ salvo por el hecho de que las instrucciones se ejecutan por lo menos una vez.
+
+Obsérvese el siguiente __algoritmo__ en PSeInt:
+
+```
+Algoritmo dame_nombre
+	Repetir
+		Escribir 'Dame tu nombre: '
+		Leer nombre
+	Hasta Que nombre<>''
+	Escribir 'Tu nombre es ',nombre
+FinAlgoritmo
+```
+Y el diagrama:
+
+<img src="./diagramas-flujo/dame_tu_nombre.jpg" alt="Dime tu nombre">
+
+Se puede observar claramente que las instrucciones se repiten por lo menos una vez. El usuario por lo menos tiene un intento de introducir su nombre.
+
+### For
+
+El bucle __for__ es unas __estructura de control__ que nos facilita escribir en menos líneas un bucle (sea __while__ o __do...while__). Fijarse en el siguiente _pseudocódigo_:
+
+```
+Algoritmo contar_vueltas_con_for
+	Para vueltas = 1 Hasta 10 Con Paso paso Hacer
+		Escribir "Vuelta ", vueltas
+		vueltas = vueltas + 1
+	Fin Para
+FinAlgoritmo
+```
+
+Observamos que en la instrucción __Para__ _inicializamos_ las vueltas e indicamos el _final_ de la condición (__Hasta 10__) en la misma línea de la __sentencia__ o __instrucción__.
+
+El diagrama sería el siguiente:
+
+<img src="./diagramas-flujo/contar_vueltas_con_for.jpg" alt="Contar vueltas con for">
 
 [Inicio](#tabla-de-contenidos)
 
