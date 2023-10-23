@@ -11,7 +11,7 @@
 - [Pseudocódigo y diagramas de flujo](#pseudocódigo-y-diagramas-de-flujo)
 - [Operadores](#operadores)
 - [Escructura condicional](#condicionales-o-bifurcaciones)
-- [Bucle while](#bucles-con-while)
+- [Bucles](#bucles)
 - [Ejercicios básicos](#ejercicios-básicos)
 - [Pruebas de conocimiento](#pruebas-de-conocimiento)
 
