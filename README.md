@@ -260,6 +260,52 @@ Algoritmo contar_vueltas_con_for
 FinAlgoritmo
 ```
 
+## Arreglos
+
+De vez en cuando tenemos una colección de datos que representan un dominio y que hace difícil o imposible guardarlos en un número elevado de variables.
+
+Imaginemos que necesitamos almacenar la edad de 100 personas. Sin los __arreglos__ tendríamos que recurrir a cien __variables__:
+
+```pseint
+edad1 = 50
+edad2 = 12
+edad3 = 80
+
+// y así hasta 100
+```
+
+Los __arreglos__ o también llamados __arrays__ o __vectores__ nos proporcionan un mecanismo para almacear este conjunto de datos. Lo que debemos realizar es declarar una variable que permita almacenar 100 valores dentro
+
+```pseint
+// Declaramos un vector de 100 posiciones
+edades[100]
+```
+Para editar cada una de los miembros de esta colección lo realizaremos a través del "índice", un __número entero__ que escribiremos dentro de los corchetes y que nos devuelve la __expresión__ de uno de los elementos del __array__
+
+```pseint
+Escribir 'Nombre 1:'
+Leer nombres[1] // <- 'Juan'
+Escribir nombres[1] // -> 'Juan'
+```
+
+Para escribir el código anterior cien veces se recurren a los __bucles__ y el que mejor se adapta es la instrucción __Para__:
+
+```pseint
+Algoritmo dadme_vuestros_nombres
+	TAM = 100 // Utilizo una constante para dimensionar el array
+	Dimensionar nombres[TAM]
+	Para i = 1 Hasta TAM Con Paso 1 Hacer
+		Escribir 'Nombre ', i, ':'
+		Leer nombres[i]
+	Fin Para
+FinAlgoritmo
+```
+
+El __diagrama__ del __algoritmo__ del anterior __pseudocódigo__ es el siguiente:
+
+<img src="./diagramas-flujo/dadme_vuestros_nombres.jpg" alt="Dime tu nombre">
+
+
 Observamos que en la instrucción __Para__ _inicializamos_ las vueltas e indicamos el _final_ de la condición (__Hasta 10__) en la misma línea de la __sentencia__ o __instrucción__.
 
 El diagrama sería el siguiente:
