@@ -12,6 +12,7 @@
 - [Operadores](#operadores)
 - [Escructura condicional](#condicionales-o-bifurcaciones)
 - [Bucles](#bucles)
+- [Arreglos, arrays, vectores, matrices de una dimensión](#arreglos)
 - [Ejercicios básicos](#ejercicios-básicos)
 - [Pruebas de conocimiento](#pruebas-de-conocimiento)
 
@@ -260,9 +261,18 @@ Algoritmo contar_vueltas_con_for
 FinAlgoritmo
 ```
 
+
+Observamos que en la instrucción __Para__ _inicializamos_ las vueltas e indicamos el _final_ de la condición (__Hasta 10__) en la misma línea de la __sentencia__ o __instrucción__.
+
+El diagrama sería el siguiente:
+
+<img src="./diagramas-flujo/contar_vueltas_con_for.jpg" alt="Contar vueltas con for">
+
+[Inicio](#tabla-de-contenidos)
+
 ## Arreglos
 
-De vez en cuando tenemos una colección de datos que representan un dominio y que hace difícil o imposible guardarlos en un número elevado de variables.
+En muchas ocaciones tenemos una colección de datos que representan un dominio y que hace difícil o imposible guardarlos en un número elevado de variables.
 
 Imaginemos que necesitamos almacenar la edad de 100 personas. Sin los __arreglos__ tendríamos que recurrir a cien __variables__:
 
@@ -274,7 +284,7 @@ edad3 = 80
 // y así hasta 100
 ```
 
-Los __arreglos__ o también llamados __arrays__ o __vectores__ nos proporcionan un mecanismo para almacear este conjunto de datos. Lo que debemos realizar es declarar una variable que permita almacenar 100 valores dentro
+Los __arreglos__ o también llamados __arrays__ o __vectores__ nos proporcionan un mecanismo para almacenar este conjunto de datos. Lo que debemos realizar es declarar una variable que permita almacenar 100 valores:
 
 ```pseint
 // Declaramos un vector de 100 posiciones
@@ -304,13 +314,6 @@ FinAlgoritmo
 El __diagrama__ del __algoritmo__ del anterior __pseudocódigo__ es el siguiente:
 
 <img src="./diagramas-flujo/dadme_vuestros_nombres.jpg" alt="Dime tu nombre">
-
-
-Observamos que en la instrucción __Para__ _inicializamos_ las vueltas e indicamos el _final_ de la condición (__Hasta 10__) en la misma línea de la __sentencia__ o __instrucción__.
-
-El diagrama sería el siguiente:
-
-<img src="./diagramas-flujo/contar_vueltas_con_for.jpg" alt="Contar vueltas con for">
 
 [Inicio](#tabla-de-contenidos)
 
