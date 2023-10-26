@@ -10,7 +10,8 @@
 - [Coneptos básicos](#conceptos-básicos)
 - [Pseudocódigo y diagramas de flujo](#pseudocódigo-y-diagramas-de-flujo)
 - [Operadores](#operadores)
-- [Escructura condicional](#condicionales-o-bifurcaciones)
+- [Escructura condicional o if](#condicionales-o-bifurcaciones)
+- [Según o switch](#switch)
 - [Bucles](#bucles)
 - [Arreglos, arrays, vectores, matrices de una dimensión](#arreglos)
 - [Ejercicios básicos](#ejercicios-básicos)
@@ -213,6 +214,31 @@ Usted es mayor de edad (50)<br>
 Como observamos en una __bifurcación__ más conocido como __condicional__ esperamos una decisión, esto es, se evalúa una __expresión a verdadero o falso__. Las condicionales también se denominan estructuras de control
 
 [Inicio](#tabla-de-contenidos)
+
+## Switch
+
+La _estructura de control_ __switch__ (Según) es muy parecido a __if__ (Si) pero con la salvedad de que tenemos que conocer __exactamente__ la solución a la pregunta que realicemos.
+
+Veamos el siguiente __pseudocódigo__:
+
+```pseint
+Algoritmo tratamiento
+	Escribir 'Escribir h para hombre y m para mujer:'
+	leer sex
+	Segun sex Hacer
+		'm':
+			Escribir "Señora"
+		'h':
+			Escribir "Señor"
+		De Otro Modo:
+			Escribir "Opción no válida"
+	Fin Segun	
+FinAlgoritmo
+```
+
+La pregunta es saber si en la __variable__ _sex_ se almacena la cadena de texto o __string__ "h" o "m" para escribir el tratamiento. Normalmente la estructura __switch__ tiene una opción en caso de que el valor no sea hayado.
+
+![Estructura switch](./diagramas-flujo/tratamiento.jpg)
 
 ## Bucles
 
