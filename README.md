@@ -14,6 +14,9 @@
 - [Bucles](#bucles)
 - [Arreglos, arrays, vectores, matrices de una dimensión](#arreglos)
 - [Ejercicios básicos](#ejercicios-básicos)
+- [Ejercicios de refuerzo](#ejercicios-de-refuerzo)
+- [Ejercicios de bucles](#ejercicios-de-bucles)
+- [Ejercicios de bucles con arreglos](#ejercicios-de-bucles-con-arreglos)
 - [Pruebas de conocimiento](#pruebas-de-conocimiento)
 
 
@@ -334,7 +337,7 @@ aritmético (+, -, *, /), imprimir el resultado de la operación __a__ __S__ __b
 2. Comprobar si un año es bisiesto. Los años divisibles por 4 son bisiestos, pero cada 400 años se deben eliminar 3 bisiestos. Para ello, no son bisiestos los que se dividen por 100, menos los que se dividen por 400, que sí son bisitestos.
 Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo los que sean divisibles por 100, pero no los que sean divisibles por 400.
 
-## Bucles
+## Ejercicios de bucles
 1. Mostrar los primeros 10 números naturales impares
 2. Sumar los números del 1 al 10
 3. Imprimir la tabla de multiplicar de 1 al 10
@@ -363,6 +366,13 @@ Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo l
 
 
 Para ver la soluciones cambia al <mark>branch</mark> __solutions__.
+
+## Ejercicios de bucles con arreglos
+
+1. Ingresar 5 números, almacenarlos en un arreglo y mostrarlos
+2. Crear un arreglo con n numeros, ingresados por teclado y mostrar sus valores elevados al cuadrado.
+3. Diseñe un arreglo en el que se ingrese la cantidad de productos y sus respectivos precios, para la preparación de un plato, también se debe mostrar al final el costo a gastar.
+4. Ingresar n números, almacenarlos en un arreglo y mostrar el elemento mayor, el elemento menor y la media de todos ellos.
 
 ## Recursos y enlaces
 
