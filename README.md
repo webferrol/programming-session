@@ -283,15 +283,17 @@ El bucle __for__ es unas __estructura de control__ que nos facilita escribir en 
 
 ```
 Algoritmo contar_vueltas_con_for
-	Para vueltas = 1 Hasta 10 Con Paso paso Hacer
+	Para vueltas = 1 Hasta 10 Con Paso 1 Hacer
 		Escribir "Vuelta ", vueltas
-		vueltas = vueltas + 1
+	Fin Para
+	Para vueltas = 10 Hasta 1 Con Paso -1 Hacer
+		Escribir "Vuelta ", vueltas
 	Fin Para
 FinAlgoritmo
 ```
 
 
-Observamos que en la instrucción __Para__ _inicializamos_ las vueltas e indicamos el _final_ de la condición (__Hasta 10__) en la misma línea de la __sentencia__ o __instrucción__.
+Observamos que en la instrucción __Para__ _inicializamos_ las vueltas e indicamos el _final_ de la condición (__Hasta 10__) en la misma línea de la __sentencia__ o __instrucción__. También indicamos el incremento, __Paso 1__. Seguidamente contamos hacia atrás.
 
 El diagrama sería el siguiente:
 
