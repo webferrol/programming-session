@@ -405,7 +405,7 @@ Para ver la soluciones cambia al <mark>branch</mark> __solutions__.
 ## Recursos y enlaces
 
 - [PSeInt](https://pseint.sourceforge.net/)
-- [Curso básico de JavaScript](https://github.com/webferrol/programming-session/tree/solutions/soluciones)
+- [Curso básico de JavaScript](https://www.aprendejavascript.dev/)
 
 [Inicio](#tabla-de-contenidos)
 
