@@ -14,10 +14,7 @@
 - [Según o switch](#switch)
 - [Bucles](#bucles)
 - [Arreglos, arrays, vectores, matrices de una dimensión](#arreglos)
-- [Ejercicios básicos](#ejercicios-básicos)
-- [Ejercicios de refuerzo](#ejercicios-de-refuerzo)
-- [Ejercicios de bucles](#ejercicios-de-bucles)
-- [Ejercicios de bucles con arreglos](#ejercicios-de-bucles-con-arreglos)
+- [Ejercicios](#ejercicios)
 - [Pruebas de conocimiento](#pruebas-de-conocimiento)
 
 
@@ -348,24 +345,22 @@ El __diagrama__ del __algoritmo__ del anterior __pseudocódigo__ es el siguiente
 
 [Inicio](#tabla-de-contenidos)
 
-## Ejercicios básicos
+## Ejercicios
+
+__Básicos__
 
 1.  Diagrama de flujo que a partir de tres notas de evaluación dadas de un determiando alumno en la asignatura de "Programación" se obtenga la media aritmética de estas
 2. Diagrama de flujo introducido el precio de un producto se le aplique descuento del quince por ciento obteniendo el desglose del descuento y el precio final
 3. Diagrama de flujo en el que determinemos dado un número si este es positivo o negativo
 4. Leer un número y determinar si este es par o impar
 5. Leer dos números y determinar si el primero es mayor que el segundo. En caso de que no sea así intercambiar los valores con una variable auxiliar
-
-- [Soluciones](./ejercicios-basicos.md)
-
-## Ejercicios de refuerzo
-
-1. Dados dos números reales, __a__ y __b__, y el símbolo, __S__ (carácter), de un operador
+6. Dados dos números reales, __a__ y __b__, y el símbolo, __S__ (carácter), de un operador
 aritmético (+, -, *, /), imprimir el resultado de la operación __a__ __S__ __b__
-2. Comprobar si un año es bisiesto. Los años divisibles por 4 son bisiestos, pero cada 400 años se deben eliminar 3 bisiestos. Para ello, no son bisiestos los que se dividen por 100, menos los que se dividen por 400, que sí son bisitestos.
+7. Comprobar si un año es bisiesto. Los años divisibles por 4 son bisiestos, pero cada 400 años se deben eliminar 3 bisiestos. Para ello, no son bisiestos los que se dividen por 100, menos los que se dividen por 400, que sí son bisitestos.
 Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo los que sean divisibles por 100, pero no los que sean divisibles por 400.
 
-## Ejercicios de bucles
+__Bucles__
+
 1. Mostrar los primeros 10 números naturales impares
 2. Sumar los números del 1 al 10
 3. Imprimir la tabla de multiplicar de 1 al 10
@@ -392,15 +387,14 @@ Dicho de otro modo, son bisiestos todos los años divisibles por 4, excluyendo l
   - Si operación es 1 calcula A / B. Vigilamos que B no sea 0...
   - Si la operación es 2 calculamos la siguiente fórmula: ( A * B ) / 2.5
 
-
-Para ver la soluciones cambia al <mark>branch</mark> __solutions__.
-
-## Ejercicios de bucles con arreglos
+__Arreglos__
 
 1. Ingresar 5 números, almacenarlos en un arreglo y mostrarlos
 2. Crear un arreglo con n numeros, ingresados por teclado y mostrar sus valores elevados al cuadrado.
 3. Diseñe un arreglo en el que se ingrese la cantidad de productos y sus respectivos precios, para la preparación de un plato, también se debe mostrar al final el costo a gastar.
 4. Ingresar n números, almacenarlos en un arreglo y mostrar el elemento mayor, el elemento menor y la media de todos ellos.
+
+__Para ver la soluciones cambia a la rama (_branch_) "solutions".__
 
 ## Recursos y enlaces
 
