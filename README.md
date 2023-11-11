@@ -315,8 +315,8 @@ edad3 = 80
 Los __arreglos__ o también llamados __arrays__ o __vectores__ nos proporcionan un mecanismo para almacenar este conjunto de datos. Lo que debemos realizar es declarar una variable que permita almacenar 100 valores:
 
 ```pseint
-// Declaramos un vector de 100 posiciones
-edades[100]
+// Declaramos un vector de 100 posiciones. La palabra "Dimensionar" es de PSeInt para crear arreglos
+Dimensionar edades[100]
 ```
 Para editar cada una de los miembros de esta colección lo realizaremos a través del "índice", un __número entero__ que escribiremos dentro de los corchetes y que nos devuelve la __expresión__ de uno de los elementos del __array__
 
